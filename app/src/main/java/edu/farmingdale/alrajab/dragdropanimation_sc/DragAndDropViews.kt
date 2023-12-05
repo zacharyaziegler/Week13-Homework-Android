@@ -36,8 +36,6 @@ class DragAndDropViews : AppCompatActivity() {
         rocketImage.setBackgroundResource(R.drawable.rocket_animation)
         val rocketAnimation = rocketImage.background as AnimationDrawable
         binding.startBtn.setOnClickListener{
-//            rocketImage.setBackgroundResource(R.drawable.rocket_animation)
-//            val rocketAnimation = rocketImage.background as AnimationDrawable
             rocketAnimation.start()
         }
 
